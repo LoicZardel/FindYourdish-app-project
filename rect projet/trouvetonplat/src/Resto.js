@@ -4,6 +4,7 @@ import dishlogo from './dishlogo.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import loupe from './loupe.png'
 import r1 from './r1.jpg'
+import { Link } from 'react-router-dom';
 
 function Resto() {
   return (
@@ -32,7 +33,7 @@ Destinations à proximité ci-dessous</span>
                 <h3 className='mt-3'>Njoya restaux</h3>
                 <h4>Prix: 3$</h4>
                 <br></br>
-                 <button className='mb-3'>Confirmer</button>
+                 <button className='mb-3'><Link to='/Itineraire' style={{color: 'white',textDecoration:'none'}}>Confirmer</Link></button>
                
 
               </div>
@@ -44,17 +45,17 @@ Destinations à proximité ci-dessous</span>
                 <h3 className='mt-3'>Geneva resto </h3>
                 <h4>Prix: 8$</h4>
                 <br></br>
-                 <button className='mb-3'>Confirmer</button>
+                 <button className='mb-3'><Link to='/Itineraire' style={{color: 'white',textDecoration:'none'}}>Confirmer</Link></button>
               </div>      
             </div>
-             {/* restaurant 2 proposé*/}
+             {/* restaurant 2 proposé*/} 
             <div className='col-md-4'>
               <div className='r1'>
                 <img src={r1} alt='' className='mt-3'></img>
                 <h3 className='mt-3'>Mama Gourmet </h3>
                 <h4>Prix: 5$</h4>
                 <br></br>
-                 <button className='mb-3'>Confirmer</button>
+                 <button className='mb-3 text-light'><Link to='/Itineraire' style={{color: 'white',textDecoration:'none'}}>Confirmer</Link></button>
               </div>      
             </div>
 

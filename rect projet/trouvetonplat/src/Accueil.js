@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import './App.css';
 import dishlogo from './dishlogo.png';
+import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -48,8 +50,8 @@ function App() {
             onChange={(e) => setSearchTerm(e.target.value)}
             className="form-control me-2"
           />
-          <button className="btn btn-primary">Rechercher</button>
-          <button className='com btn btn-secondary ms-2'>Mes Commandes</button>
+          <button className="btn btn-primary" id='search'><Link to='/Resto' style={{color:'white',backgroundColor:'#4CAF50'}}>Rechercher</Link></button>
+          <button className='com btn btn-secondary ms-2' id='cmd'>Mes Commandes</button>
         </div>
 
         {/* Popup d'inscription */}
@@ -63,7 +65,7 @@ function App() {
                 <input type="tel" placeholder="Numéro de téléphone" required className="form-control mb-2" />
                 <input type="email" placeholder="Email" required className="form-control mb-2" />
                 <input type="password" placeholder="Mot de passe" required className="form-control mb-2" />
-                <button type="submit" className="btn btn-primary">S'inscrire</button>
+                <Link to='Resto'><button type="submit" className="btn btn-primary">S'inscrire</button></Link>
               </form>
             </div>
           </div>

@@ -9,6 +9,7 @@
   justify-content:center;
   align-items:center;
   flex-direction:column;
+  font: size 16px; ;
       
 }
 .log{
@@ -41,16 +42,21 @@ button {
   background-color: #4CAF50; /* Couleur de fond du bouton */
   color: white; /* Couleur du texte du bouton */
   cursor: pointer; /* Changer le curseur au survol */
-  width: 150px; /* Largeur fixe du bouton */
+  width: 30%; /* Largeur fixe du bouton */
   margin-left: 9px; /* Espacement entre l'input et le bouton */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère pour donner de la profondeur */
   transition: background-color 0.3s; /* Transition pour la couleur de fond */
   
 }
+#search{
+background-color: #4CAF50;
+border: none;
+}
+
   
 
 button:hover {
-  background-color: #9e4021; /* Couleur de fond au survol */
+  background-color: #E84710; /* Couleur de fond au survol */
 }
 
 .App-logo {
@@ -78,14 +84,17 @@ button:hover {
   padding: 0; /* Pas d'espacement interne */
   
 }
-.com{
-  background-color: #9e4021;
+#cmd{
+  background-color: #E84710;
+  border: none;
 }
 .login{
   background-color: #1b63ff;
    border-radius: 30px;
-   height: 50%;
+   height: 40%;
    margin-bottom:5% ;
+   width: 60%;
+   font-size: 16px;
 
   
 }
@@ -125,6 +134,7 @@ button:hover {
 .logins{
  height: 03%;
 }
+
 /*ddddd
 @keyframes App-logo-spin {
   from {

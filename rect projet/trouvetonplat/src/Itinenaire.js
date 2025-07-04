@@ -4,6 +4,7 @@ import go from './go.jpg'
 import dishlogo from './dishlogo.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import map from './map.jpg'
+import { Link } from 'react-router-dom';
 
 function Itineraire() {
   return (
@@ -35,7 +36,7 @@ function Itineraire() {
                                 <div id='gps' alt=''  >
                                     <img src={map} className='mt-3  mx-auto d-block' alt=''  ></img>
                                     <br></br>
-                                    <button id='now' className='text-center mt-3  mx-auto d-block'>Commander Maintenant</button>
+                                    <button id='now' className='text-center mt-3  mx-auto d-block'><Link to='/FormResto' style={{color: 'white',textDecoration:'none'}}>Commander maintenant</Link></button>
 
                                 </div>
 

@@ -81,7 +81,7 @@ function App() {
                 
                 <input type="email" placeholder="Email" required className="form-control mb-2" />
                 <input type="password" placeholder="Mot de passe" required className="form-control mb-2" />
-                <button type="submit" className="btn btn-primary">S'inscrire</button>
+                <button type="submit" className="btn btn-primary"><Link style={{color:'white',textDecoration:'none'}} to='/AdminListePlat'>Connexion</Link></button>
               </form>
             </div>
           </div>

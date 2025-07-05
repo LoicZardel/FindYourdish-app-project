@@ -4,6 +4,7 @@ import Itineraire from './Itinenaire';
 import Resto from './Resto'
 import AdminListePlat from './AdminListePlat';
 import AdminApp from './AdminApp';
+import Mescommande from './Mescommande';
 import { Route, Routes } from 'react-router-dom';
 
 
@@ -19,6 +20,8 @@ function App() {
         <Route path='/FormResto' element={<FormResto />} />
         <Route path='/AdminListePlat' element={<AdminListePlat />} /> 
         <Route path='/AdminApp' element={<AdminApp />} /> 
+         <Route path='/Mescommande' element={<Mescommande />} /> 
+        
       </Routes>
     </div>
   );

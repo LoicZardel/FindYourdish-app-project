@@ -12,9 +12,8 @@ function SideBarMenu() {
 
     return (
         <div>
-                    
-                    
-                    <div className='sidebar'>
+                    <div className='side'>
+                           <div className='sidebar'>
                         <div className='proprio'>
                             <img src={gourmet} alt='' style={{width:150,borderRadius:100}} className='mt-3'></img><br></br>
                             <p style={{fontWeight:'bold',fontSize:20}}>Stella Gourmet</p><br></br>
@@ -33,6 +32,10 @@ function SideBarMenu() {
                             </div>
                         
                     </div>
+
+                    </div>
+                    
+                 
         </div>
         
     );

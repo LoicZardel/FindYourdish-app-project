@@ -31,12 +31,12 @@ input {
   width: 55%; /* Prendre toute la largeur du conteneur */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère pour donner de la profondeur */
   transition: border-color 0.3s; /* Transition pour les changements de couleur */
-  height: 100%;
+  height: 120%;
  
 }
 
 button {
-   height: 150%;
+   height: 100%;
   border-radius: 5px; /* Arrondi des bords du bouton */
   padding: 8px 20px; /* Augmenter le padding pour une hauteur plus grande */
   border: none; /* Supprimer la bordure par défaut */
@@ -53,6 +53,10 @@ button {
 background-color: #4CAF50;
 border: none;
 }
+#search :hover{
+background-color: #328034;
+border: none;
+}
 
   
 
@@ -61,8 +65,9 @@ button:hover {
 }
 
 .App-logo {
-  height: 30vmin;
-  pointer-events: none;
+  height: 200px;
+  padding-bottom: 40px;
+  
  
 }
 
